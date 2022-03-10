@@ -1,7 +1,7 @@
-package com.dio_class.devweek.Controller;
+package com.dioclass.devweek.Controller;
 
-import com.dio_class.devweek.Entity.FaixaEtaria;
-import com.dio_class.devweek.Repository.FaixaEtariaRepo;
+import com.dioclass.devweek.Entity.FaixaEtaria;
+import com.dioclass.devweek.Repository.FaixaEtariaRepo;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

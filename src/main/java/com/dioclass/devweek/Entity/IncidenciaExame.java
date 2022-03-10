@@ -1,4 +1,4 @@
-package com.dio_class.devweek.Entity;
+package com.dioclass.devweek.Entity;
 
 import javax.persistence.*;
 
@@ -17,8 +17,7 @@ public class IncidenciaExame {
 
     }
 
-    public IncidenciaExame(Integer regiaoid, Integer mes, Long faixaid, Integer qntexames){
-        this.regiaoId = regiaoid;
+    public IncidenciaExame(Integer mes, Long faixaid, Integer qntexames){
         this.mes = mes;
         this.faixaId = faixaid;
         this.faixaId = faixaid;

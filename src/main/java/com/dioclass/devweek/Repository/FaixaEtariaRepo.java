@@ -1,6 +1,6 @@
-package com.dio_class.devweek.Repository;
+package com.dioclass.devweek.Repository;
 
-import com.dio_class.devweek.Entity.FaixaEtaria;
+import com.dioclass.devweek.Entity.FaixaEtaria;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface FaixaEtariaRepo extends JpaRepository<FaixaEtaria, Long> {

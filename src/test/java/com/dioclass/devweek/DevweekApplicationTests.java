@@ -1,4 +1,4 @@
-package com.dio_class.devweek;
+package com.dioclass.devweek;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.dio_class.devweek.Entity;
+package com.dioclass.devweek.Entity;
 
 import javax.persistence.*;
 

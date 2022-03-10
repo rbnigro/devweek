@@ -1,4 +1,4 @@
-package com.dio_class.devweek.Entity;
+package com.dioclass.devweek.Entity;
 
 import javax.persistence.*;
 
@@ -9,11 +9,11 @@ public class Regiao {
     @Column(nullable = false, updatable = false)
     private Long id;
 
-    private String regiao;
+    private String regiaoExame;
     private Integer totalExames;
 
     public Regiao(String regiao, Integer total) {
-        this.regiao = regiao;
+        this.regiaoExame = regiao;
         this.totalExames = total;
     }
 
@@ -25,12 +25,12 @@ public class Regiao {
         return id;
     }
 
-    public String getRegiao() {
-        return regiao;
+    public String getRegiaoExame() {
+        return regiaoExame;
     }
 
-    public void setRegiao(String regiao) {
-        this.regiao = regiao;
+    public void setRegiaoExame(String regiaoExame) {
+        this.regiaoExame = regiaoExame;
     }
 
     public Integer getTotalExames() {
