@@ -9,7 +9,9 @@ public class Regiao {
     @Column(nullable = false, updatable = false)
     private Long id;
 
+    @Column(name = "regiao")
     private String regiaoExame;
+
     private Integer totalExames;
 
     public Regiao(String regiao, Integer total) {
