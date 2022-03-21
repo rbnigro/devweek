@@ -1,7 +1,7 @@
-package com.dioclass.devweek.Controller;
+package com.dioclass.devweek.controller;
 
-import com.dioclass.devweek.Entity.IncidenciaExame;
-import com.dioclass.devweek.Repository.OcorrenciaRepo;
+import com.dioclass.devweek.entity.IncidenciaExame;
+import com.dioclass.devweek.repository.OcorrenciaRepo;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

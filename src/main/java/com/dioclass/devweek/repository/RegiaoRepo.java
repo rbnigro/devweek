@@ -1,6 +1,6 @@
-package com.dioclass.devweek.Repository;
+package com.dioclass.devweek.repository;
 
-import com.dioclass.devweek.Entity.Regiao;
+import com.dioclass.devweek.entity.Regiao;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RegiaoRepo extends JpaRepository<Regiao,Long> {
